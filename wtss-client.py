@@ -1,6 +1,7 @@
 from wtss import wtss
 
-w = wtss("http://www.dpi.inpe.br/tws")
+# w = wtss("http://www.dpi.inpe.br/tws")
+w = wtss("http://localhost:5000/wtss/tws")
 
 cv_list = w.list_coverages()
 
